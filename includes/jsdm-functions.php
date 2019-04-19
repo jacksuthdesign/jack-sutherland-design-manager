@@ -37,7 +37,7 @@
         $wp_admin_bar->add_node( array(
         'id'		=> 'supportlink',
         'title' => 'Contact Support',
-        'href' => 'mailto:support@jack.desi',
+        'href' => 'mailto:help@jack.desi',
     ) );
     }
 
@@ -56,7 +56,7 @@
     }
     
     function custom_dashboard_help() {
-    echo '<p>Welcome to your website. Need help? Contact us for support <a href="mailto:support@jack.desi">here</a>. To access your client area <a href="https://client.jack.desi/gn" target="_blank">click here.</a></p>';
+    echo '<p>Welcome to your website. Need help? Contact us for support <a href="mailto:help@jack.desi">here</a>. To access your client area <a href="https://client.jack.desi/gn" target="_blank">click here.</a></p>';
     }
 
 /*
