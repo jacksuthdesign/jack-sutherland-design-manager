@@ -117,7 +117,7 @@
  */
 
     function jsdm_url_login(){
-        return "https://jack.desi/gn.com/";
+        return "https://jack.desi/gn";
     }
     add_filter('login_headerurl', 'jsdm_url_login');
 
