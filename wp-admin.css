@@ -1,0 +1,21 @@
+
+/*
+ *Jack Sutherland Desi/gn Management Worker for WordPress 5.1
+ *For more information, please visit go.jack.desi/worker.
+ *If your website goes down - please visit rescue.jack.desi/gn.
+ *This plugin collects no information. If you have any concerns about the privacy policy of Jack Sutherland Desi/gn please visit jack.desi/gn/privacy-policy.
+*/
+
+#wpadminbar {
+    border-bottom: 5px solid #ffe472;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #bd4682;
+}
+
+#wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon {
+    color: #ffe472;
+    font-family: "Publica Sans Regular", Sans-serif;
+    font-size: 17px;
+    font-weight:500;
+
+}
