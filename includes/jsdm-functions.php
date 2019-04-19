@@ -72,7 +72,7 @@
       add_filter('admin_footer_text', 'jsdm_change_footer_admin');
 
 /*
- * Custom Greeting Text
+ * JS Desi/gn Change Greeting from Howdy, to Hey there,
  */
 
     add_filter('gettext', 'jsdm_change_howdy', 10, 3);
