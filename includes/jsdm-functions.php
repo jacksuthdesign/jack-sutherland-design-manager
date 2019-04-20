@@ -71,7 +71,7 @@
 
     function jsdm_change_footer_admin () {  
  
-        echo 'Made with love in Victoria, Australia by <a href="https://jack.desi/gn">Jack Sutherland Desi/gn.</a>';  
+        echo 'Made with 💕, ☕ and 🎶 in Victoria, Australia by <a href="https://jack.desi/gn">Jack Sutherland Desi/gn.</a>';  
        
       }  
        
