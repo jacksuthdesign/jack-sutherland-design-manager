@@ -29,11 +29,11 @@
  * JS Desi/gn Contact Support Toolbar/Quicklinks Addition
  */
 
-    // Hook the 'admin_bar_menu action hook, run the function named 'jsdm_Add_Toolbar_Items'
-    add_action('admin_bar_menu', 'jsdm_add_toolbar_items', 999);
+    // Hook the 'admin_bar_menu action hook, run the function named 'jsdm_add_toolbar_item_supportlink'
+    add_action('admin_bar_menu', 'jsdm_add_toolbar_item_supportlink', 999);
 
     // Add 'Contat Support' tool bar item
-    function jsdm_add_toolbar_items($wp_admin_bar) {
+    function jsdm_add_toolbar_item_supportlink($wp_admin_bar) {
         $wp_admin_bar->add_node( array(
         'id'		=> 'supportlink',
         'title' => 'Contact Support',
