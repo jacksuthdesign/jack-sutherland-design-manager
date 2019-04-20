@@ -11,15 +11,15 @@
  * JS Desi/gn Manager Menu Item Addition to Admin Control Panel (ACP)
  */
 
-    // Hook the 'admin_menu' action hook, run the function named 'jsdm_Add_My_Admin_Link()'
-    add_action( 'admin_menu', 'jsdm_Add_My_Admin_Link' );
+    // Hook the 'admin_menu' action hook, run the function named 'jsdm_add_menu_link_primary_page'
+    add_action( 'admin_menu', 'jsdm_add_menu_link_primary_page' );
  
     // Add a new top level menu link to the ACP
-    function jsdm_Add_My_Admin_Link()
+    function jsdm_add_menu_link_primary_page()
     {
         add_menu_page(
-        'JS Desi/gn Manager',
-        'JS Desi/gn Manager',
+        'JS Desi/gn',
+        'JS Desi/gn',
         'manage_options',
         'jack-sutherland-design-manager/includes/jsdm-primary-page.php'
         );
