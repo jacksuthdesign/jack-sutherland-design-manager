@@ -56,7 +56,13 @@
     }
     
     function custom_dashboard_help() {
-    echo '<p>Welcome to your website. Need help? Contact us for support <a href="mailto:help@jack.desi">here</a>. To access your client area <a href="https://client.jack.desi/gn" target="_blank">click here.</a></p>';
+    echo '<p>Welcome to your website. Need help? Contact us for support <a href="mailto:help@jack.desi">here</a>. To access your client area <a href="https://client.jack.desi/gn" target="_blank">click here.</a></p>
+        <h2>Quick Links</h2>
+        <ul>
+        <li><a href="https://client.jack.desi/gn">Client Area</a></li>
+        <li><a href="https://rescue.jack.desi/gn">Support</a></li>
+        <li><a href="https://jack.desi/gn">Our Website</a></li>
+        </ul>';
     }
 
 /*
