@@ -45,7 +45,7 @@
  * JS Desi/gn Dashboard Widget
  */
 
-     // Hook the 'wp_dashboard_setup' action hook, run the function named 'jsdm_Add_Toolbar_Items'
+     // Hook the 'wp_dashboard_setup' action hook, run the function named 'jsdm_Add_Dashboard_Widget'
     add_action('wp_dashboard_setup', 'jsdm_Add_Dashboard_Widget');
     
     function jsdm_Add_Dashboard_Widget() {
